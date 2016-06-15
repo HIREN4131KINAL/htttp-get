@@ -42,8 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
             OkHttpClient client = new OkHttpClient();
 
+//            URLS
+//            1 http://pratikbutani.x10.mx/json_data.json
+//            2 http://api.androidhive.info/json/movies.json
             Request request = new Request.Builder()
-                    .url("http://api.androidhive.info/json/movies.json")
+                    .url("http://pratikbutani.x10.mx/json_data.json")
                     .build();
 
             Response response = null;
@@ -100,8 +103,6 @@ public class MainActivity extends AppCompatActivity {
     } catch (Exception e) {
 
     }*/
-
-
 
 
 }
